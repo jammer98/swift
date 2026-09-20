@@ -10,7 +10,7 @@ copy .env.example .env
 npm run dev
 ```
 
-Set `VITE_API_URL` in `.env` to the backend URL (defaults to `http://localhost:3003`). The backend must allow `http://localhost:5173` in `CORS_ORIGINS`.
+Set `VITE_API_URL` in `.env` to the backend URL (defaults to `http://localhost:4000`). The backend must allow `http://localhost:5173` in `CORS_ORIGINS`.
 
 ## Routes
 
