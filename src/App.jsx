@@ -4,6 +4,11 @@ import { api } from './api/client'
 import { useAuth } from './context/AuthContext'
 import { Empty, ErrorMessage, Field, fmtDate, Loading, Navbar, ProtectedRoute, salary, StatusBadge } from './components/UI'
 
+
+<h1 className="text-4xl font-bold text-blue-600">
+  Swift for Jobs
+</h1>
+
 function Layout({ children }) { return <><Navbar /><main>{children}</main><footer><div className="footer-inner"><b>swift<span className="brand-accent">.</span></b><span>Move your career forward.</span><span>© 2026 Swift for Jobs</span></div></footer></> }
 
 function Jobs() {
